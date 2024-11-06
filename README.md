@@ -163,11 +163,10 @@
     </div>
     <script>
         const quizData = {
-            question: "Os comportamentos de produtividade podem ajudar para que uma empresa inove?
-",
+            question: "Os comportamentos de produtividade podem ajudar para que uma empresa inove?",
             options: [
-                { id: 1, text: "A produtividade tem foco exclusivo em transformar qualquer coisa em algo tangível" },
-                { id: 2, text: "A produtividade serve para fazer com que os processos sejam executados com a máxima eficiência " }
+                { id: 1, text: "A produtividade tem foco exclusivo em transformar qualquer coisa em algo tangível " },
+                { id: 2, text: "A produtividade serve para fazer com que os processos sejam executados com a máxima eficiência." }
             ],
             correctAnswer: 2
         };
@@ -229,10 +228,9 @@
                         container.appendChild(closeMessage);
                         const closeButton = document.createElement('button');
                         closeButton.className = 'close-button';
-                        closeButton.textContent = 'Encerrar Quiz';
+                        closeButton.textContent = 'Tchau!!!✌🎉✌️';
                         closeButton.onclick = () => {
-                            container.innerHTML = '<div class="end-message">Obrigado por mais este teste 🥰. Vamos voltar ao trabalho? ✌️</div>';
-                        };
+                            container.innerHTML = '<div class="end-message">Aprendeu? Vamos voltar? 😬 </div>'; };
                         container.appendChild(closeButton);
                     }, 2000);
                 }, 1000);
